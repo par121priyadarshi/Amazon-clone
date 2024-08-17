@@ -1,0 +1,813 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif ;
+    border: border-box;
+}
+body{
+    background-color: #e3e6e6;
+}
+
+.border{
+    border: 2px solid transparent;
+    padding-left: 5px;
+    padding-right: 3px;
+}
+.border:hover{
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #1c2020;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 40px;
+    width: 113px;
+    background-image: url("/IMG/amazone\ logo\ v2.png");
+    background-size: cover;
+    margin-left: 20px;
+}
+
+.location-icon{
+    display: flex;
+    margin-left: 5px;
+}
+.location{
+    color: white;
+    height: 40px;
+    /* width: 185px; */
+    margin: 5px;
+    
+}
+
+.box3{
+    display: flex;
+    height: 40px;
+    /* width: 660px; */
+}
+
+.Search-botton{
+    background-color: rgb(255, 185, 56);
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 6px ;
+    border-bottom-right-radius: 6px;
+
+}
+
+ #dropdown{ 
+    margin-left: 10px;
+    height: 40px;
+    width: 52px;
+    border-top-left-radius: 6px ;
+    border-bottom-left-radius: 6px;
+    border: none;
+    background-color: rgb(233, 233, 233);
+    border-right: 1px solid  rgb(161, 161, 161);
+} 
+
+.tiranga{
+    height: 15px;
+    width: 22px;
+    background-image: url("/IMG/tiranga.png");
+    background-size: cover;
+    margin-top: 12px;
+}
+
+.language-dropdown{
+    height: 40px;
+    display: flex;
+}
+
+.Account{
+    color: white;
+    height: 40px;
+    /* width: 185px; */
+    margin: 5px;
+
+}
+
+.Returns{
+    color: white;
+    height: 40px;
+    /* width: 185px; */
+    margin: 5px;
+
+}
+
+.fa-solid{
+    transform: scale(2);
+    color: white;
+
+}
+
+.cart{
+    color: white;
+    height: 40px;
+    /* width: 185px; */
+    margin: 5px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-right: 50px;
+}
+.cart-icon{
+    margin-left: 5px;
+    
+}
+
+.menu{
+    height: 40px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu div{
+    height: 26px;
+    padding-top:10px ;
+}
+
+.khali{
+    width: 400px;
+    padding: 0px;
+    height: 24px;
+    background-image: url("/IMG/swm.jpg");
+    background-size: cover; 
+    /* background-position: center; */
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+.hero{
+    height: 600px;
+    width: 1500px;
+    background-image: linear-gradient(rgba(227,230,230,0),rgba(227, 230, 230,1)), url("/IMG/playground.jpg");
+    background-size: cover;
+    /* background-image: linear-gradient(100%); */
+
+}
+
+.ad1{
+    display: flex;
+    justify-content: space-around;
+    /* position: relative;
+    top: 260px; */
+    margin-top: 260px;
+}
+#adbox1{
+    height: 420px;
+    width: 350px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.imgcontainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0px;
+}
+
+#img1{
+    height: 102.2px;
+    width: 150px;
+    background-image: url(IMG/img1.jpg);
+    background-size: cover;
+}
+
+#img2{
+    height: 102.2px;
+    width: 150px;
+    background-color: black;
+    margin-left: 5px;
+    background-image: url(IMG/img2.jpg);
+    background-size: cover;
+}
+
+#img3{
+    height: 102.2px;
+    width: 150px;
+    background-color: black;
+    margin-top: 20px;
+    background-image: url(IMG/img3.jpg);
+    background-size: cover;
+}
+
+#img4{
+    height: 102.2px;
+    width: 150px;
+    background-color: black;
+    margin-left: 5px;
+    margin-top: 20px;
+    background-image: url(IMG/img4.jpg);
+    background-size: cover;
+}
+#adbox2{
+    height: 420px;
+    width: 350px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#img5{
+    height: 102.2px;
+    width: 150px;
+    background-image: url(IMG/img5.jpg);
+    background-size: cover;
+}
+
+#img6{
+    height: 102.2px;
+    width: 150px;
+    background-color: black;
+    margin-left: 5px;
+    background-image: url(IMG/img6.jpg);
+    background-size: cover;
+}
+
+#img7{
+    height: 102.2px;
+    width: 150px;
+    background-color: black;
+    margin-top: 20px;
+    background-image: url(IMG/img7.jpg);
+    background-size: cover;
+}
+
+#img8{
+    height: 102.2px;
+    width: 150px;
+    background-color: black;
+    margin-left: 5px;
+    margin-top: 20px;
+    background-image: url(IMG/img8.jpg);
+    background-size: cover;
+}
+#adbox3{
+    height: 420px;
+    width: 350px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#img9{
+    height: 102.2px;
+    width: 150px;
+    background-image: url(IMG/img9.jpg);
+    background-size: cover;
+}
+
+#img10{
+    height: 102.2px;
+    width: 150px;
+    background-color: black;
+    margin-left: 5px;
+    background-image: url(IMG/img10.jpg);
+    background-size: cover;
+}
+
+#img11{
+    height: 102.2px;
+    width: 150px;
+    background-color: black;
+    margin-top: 20px;
+    background-image: url(IMG/img11.jpg);
+    background-size: cover;
+}
+
+#img12{
+    height: 102.2px;
+    width: 150px;
+    background-color: black;
+    margin-left: 5px;
+    margin-top: 20px;
+    background-image: url(IMG/img12.jpg);
+    background-size: cover;
+}
+#adbox4{
+    height: 420px;
+    width: 350px;
+    /* background-color: blanchedalmond;  */
+}
+
+#sign div{
+    width: 310px;
+}
+
+#sign{
+    width: 100%;
+    height: 125px;
+    background-color: white;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   
+}
+
+#signinb{
+    width: 308px;
+    height: 29px;
+    background-color: #ffd814;
+    margin-top: 30px;
+    border-radius: 8px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pic{
+    width: 350px;
+    height: 272px;
+    background-color: rgb(95, 82, 66);
+    margin-top: 25px;
+    background-image: url(IMG/Screenshot\ 2024-04-05\ 170730.png);
+    background-size: cover;
+}
+
+
+.ad2{
+    display: flex;
+    justify-content: space-around;
+    /* position: relative;
+    top: 260px; */
+    /* margin-top: 260px; */
+}
+
+#img13{
+    height: 102.2px;
+    width: 150px;
+    background-image: url(IMG/img13.jpg);
+    background-size: cover;
+}
+
+#img14{
+    height: 102.2px;
+    width: 150px;
+    background-color: black;
+    margin-left: 5px;
+    background-image: url(IMG/img14.jpg);
+    background-size: cover;
+}
+
+#img15{
+    height: 102.2px;
+    width: 150px;
+    background-color: black;
+    margin-top: 20px;
+    background-image: url(IMG/img15.jpg);
+    background-size: cover;
+}
+
+#img16{
+    height: 102.2px;
+    width: 150px;
+    background-color: black;
+    margin-left: 5px;
+    margin-top: 20px;
+    background-image: url(IMG/img16.jpg);
+    background-size: cover;
+}
+
+
+#img17{
+    height: 102.2px;
+    width: 150px;
+    background-image: url(IMG/img17.jpg);
+    background-size: cover;
+}
+
+#img18{
+    height: 102.2px;
+    width: 150px;
+    background-color: black;
+    margin-left: 5px;
+    background-image: url(IMG/img18.jpg);
+    background-size: cover;
+}
+
+#img19{
+    height: 102.2px;
+    width: 150px;
+    background-color: black;
+    margin-top: 20px;
+    background-image: url(IMG/img19.jpg);
+    background-size: cover;
+}
+
+#img20{
+    height: 102.2px;
+    width: 150px;
+    background-color: black;
+    margin-left: 5px;
+    margin-top: 20px;
+    background-image: url(IMG/img20.jpg);
+    background-size: cover;
+}
+
+#img21{
+    height: 102.2px;
+    width: 150px;
+    background-image: url(IMG/img21.jpg);
+    background-size: cover;
+}
+
+#img22{
+    height: 102.2px;
+    width: 150px;
+    background-color: black;
+    margin-left: 5px;
+    background-image: url(IMG/img22.jpg);
+    background-size: cover;
+}
+
+#img23{
+    height: 102.2px;
+    width: 150px;
+    background-color: black;
+    margin-top: 20px;
+    background-image: url(IMG/img23.jpg);
+    background-size: cover;
+}
+
+#img24{
+    height: 102.2px;
+    width: 150px;
+    background-color: black;
+    margin-left: 5px;
+    margin-top: 20px;
+    background-image: url(IMG/img24.jpg);
+    background-size: cover;
+}
+
+
+#adbox5{
+    height: 420px;
+    width: 350px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#img25{
+    height: 102.2px;
+    width: 150px;
+    background-image: url(IMG/img25.jpg);
+    background-size: cover;
+}
+
+#img26{
+    height: 102.2px;
+    width: 150px;
+    background-color: black;
+    margin-left: 5px;
+    background-image: url(IMG/img26.jpg);
+    background-size: cover;
+}
+
+#img27{
+    height: 102.2px;
+    width: 150px;
+    background-color: black;
+    margin-top: 20px;
+    background-image: url(IMG/img27.jpg);
+    background-size: cover;
+}
+
+#img28{
+    height: 102.2px;
+    width: 150px;
+    background-color: black;
+    margin-left: 5px;
+    margin-top: 20px;
+    background-image: url(IMG/img28.jpg);
+    background-size: cover;
+}
+
+.scrollad{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 566px;
+
+}
+
+.TodayDeals{
+    height: 348px;
+    width: 1475px;
+    background-color: #ffffff;
+    margin-top: 22px;
+    padding: 20px 20px 0px 20px;
+}
+
+.TodayDeals2{
+    /* height: 348px; */
+    /* width: 1475px; */
+    background-color: #ffffff;
+    margin-top: 22px;
+    padding: 20px 20px 0px 20px;
+}
+
+.productlist{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.productslide{
+    height: 283px;
+    width: 240px;
+    /* background-color: beige; */
+}
+
+#prim1{
+    height: 200px;
+    width: 240px;
+    background-image: url(IMG/TodayDealsimg1.jpg);
+    background-size:contain;
+    border-radius: 3px;
+}
+
+#prim2{
+    height: 200px;
+    width: 240px;
+    background-image: url(IMG/TodayDealsimg2.jpg);
+    background-size:contain;
+    border-radius: 3px;
+}
+
+#prim3{
+    height: 200px;
+    width: 240px;
+    background-image: url(IMG/TodayDealsimg3.jpg);
+    background-size:contain;
+    border-radius: 3px;
+}
+
+#prim4{
+    height: 200px;
+    width: 240px;
+    background-image: url(IMG/TodayDealsimg4.jpg);
+    background-size:contain;
+    border-radius: 3px;
+}
+
+#prim5{
+    height: 200px;
+    width: 240px;
+    background-image: url(IMG/TodayDealsimg5.jpg);
+    background-size:contain;
+    border-radius: 3px;
+}
+
+#prim6{
+    height: 200px;
+    width: 240px;
+    background-image: url(IMG/TodayDealsimg6.jpg);
+    background-size:contain;
+    border-radius: 3px;
+}
+
+#disbar{
+    height: 24px;
+    width: 240px;
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+#discount{
+    height: 24px;
+    width: 56px;
+    border-radius: 3px;
+    background-color: #cc0c39;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#discount2{
+    height: 24px;
+    width: 90px;
+    border-radius: 3px;
+    background-color: #cc0c39;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#discount3{
+    height: 24px;
+    width: 90px;
+    border-radius: 3px;
+    background-color: #cc0c39;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#discount3{
+    height: 24px;
+    width: 90px;
+    border-radius: 3px;
+    background-color: #cc0c39;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#discount4{
+    height: 24px;
+    width: 90px;
+    border-radius: 3px;
+    background-color: #cc0c39;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#discount5{
+    height: 24px;
+    width: 90px;
+    border-radius: 3px;
+    background-color: #cc0c39;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#discount6{
+    height: 24px;
+    width: 90px;
+    border-radius: 3px;
+    background-color: #cc0c39;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#limt{
+    color: #cc0c39;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+#price{
+    height: 26px;
+    width: 240px;
+    /* background-color: #e3e6e6; */
+    display: flex;
+    align-items:baseline;
+    padding-top: 5px;
+}
+
+#aprice{
+    color: #565959;
+    font-size: 12px;
+    padding-left: 6px;
+}
+
+.plist1{
+    display: flex;
+    justify-content: space-around;
+}
+
+#kiting1{
+    height: 200px;
+    width: 240px;
+    background-image: url(IMG/kiting1.jpg);
+    background-size:contain;
+    border-radius: 3px;
+}
+
+#kiting2{
+    height: 200px;
+    width: 240px;
+    background-image: url(IMG/kiting2.jpg);
+    background-size:contain;
+    border-radius: 3px;
+}
+
+#kiting3{
+    height: 200px;
+    width: 240px;
+    background-image: url(IMG/kiting3.jpg);
+    background-size:contain;
+    border-radius: 3px;
+}
+
+#kiting4{
+    height: 200px;
+    width: 240px;
+    background-image: url(IMG/kiting4.jpg);
+    background-size:contain;
+    border-radius: 3px;
+}
+
+#kiting5{
+    height: 200px;
+    width: 240px;
+    background-image: url(IMG/kiting5.jpg);
+    background-size:contain;
+    border-radius: 3px;
+}
+
+#kiting6{
+    height: 200px;
+    width: 240px;
+    background-image: url(IMG/kiting6.jpg);
+    background-size:contain;
+    border-radius: 3px;
+}
+
+.signbt{
+    margin-top: 22px;
+    height: 190px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#signinbf{
+    width: 230px;
+    height: 29px;
+    background-color: #ffd814;
+    margin-top: 5px;
+    border-radius: 8px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.backb{
+    height: 50px;
+    width: 100%;
+    background-color: #343e4b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    color: white;
+}
+
+.footerd{
+    display: flex;
+    justify-content: center;
+   
+    background-color: #232f3e;
+}
+
+.dd{
+    height: 267px;
+    width: 250px;
+    margin-top: 50px;
+    background-color: ;
+}
+
+
+
+
