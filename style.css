@@ -31,7 +31,7 @@ body{
 .logo{
     height: 40px;
     width: 113px;
-    background-image: url("/IMG/amazone\ logo\ v2.png");
+    background-image: url("IMG/amazone\ logo\ v2.png");
     background-size: cover;
     margin-left: 20px;
 }
@@ -79,7 +79,7 @@ body{
 .tiranga{
     height: 15px;
     width: 22px;
-    background-image: url("/IMG/tiranga.png");
+    background-image: url("IMG/tiranga.png");
     background-size: cover;
     margin-top: 12px;
 }
@@ -158,7 +158,7 @@ body{
 .hero{
     height: 600px;
     width: 1500px;
-    background-image: linear-gradient(rgba(227,230,230,0),rgba(227, 230, 230,1)), url("/IMG/playground.jpg");
+    background-image: linear-gradient(rgba(227,230,230,0),rgba(227, 230, 230,1)), url("IMG/playground.jpg");
     background-size: cover;
     /* background-image: linear-gradient(100%); */
 
